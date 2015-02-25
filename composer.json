@@ -1,0 +1,20 @@
+{
+    "name": "dragonmantank/fillet-sculpin-bundle",
+    "description": "A bundle wrapper for Fillet to integrate with Sculpin",
+    "require": {
+        "dragonmantank/fillet": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Chris Tankersley",
+            "email": "chris@ctankersley.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
