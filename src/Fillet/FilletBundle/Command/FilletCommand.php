@@ -69,6 +69,6 @@ class FilletCommand extends ContainerAwareCommand
         $fillet = new Fillet($parser, $file, $config);
         $fillet->parse();
 
-        $this->writeln('Finished processing. Make sure everything looks OK.');
+        $output->writeln('Finished processing. Make sure everything looks OK.');
     }
 }

@@ -12,6 +12,7 @@ Add the bundle to your site's `sculpin.json` file:
 ```
 "require": {
         // ...
+        "dragonmantank/fillet": "dev-master",
         "dragonmantank/fillet-sculpin-bundle": "dev-master"
     },
 ```
