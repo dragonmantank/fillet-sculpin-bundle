@@ -7,10 +7,19 @@ Currently supported parsers:
 
 ## Sample Usage
 
-Add the bundle to your site with Composer
+Add the bundle to your site's `sculpin.json` file:
 
 ```
-php sculpin.phar require "dragonmantank/fillet-sculpin-bundle:dev-master"
+"require": {
+        // ...
+        "dragonmantank/fillet-sculpin-bundle": "dev-master"
+    },
+```
+
+and update sculpin's dependencies:
+
+```
+php sculpin.phar update
 ```
 
 This will pull down the necessary files for Fillet. You then need to add the
