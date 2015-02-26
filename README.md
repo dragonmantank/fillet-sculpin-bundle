@@ -1,6 +1,6 @@
 # Fillet Bundle - A Bundle interface for working with Fillet
 
-This bundle allows for Fillet integration directly into Sculpin.
+This bundle allows for Fillet integration directly into Sculpin. 
 
 Currently supported parsers:
   - WordpressExport
@@ -48,3 +48,7 @@ php sculpin.phar fillet:fillet --file=path/to/file.xml --processor=WordpressExpo
 ```
 
 Fillet will then parse the file and generate the output! Assuming nothing blows up...
+
+## Update sculpin.phar!
+
+If you get an issue trying this and encounter a sculpin.phar error running update, you might need to update sculpin.phar to a version built after 2015-02-26. This affects people using the blog skeleton, as some of the dependencies that get pulled in have versions that aren't compatible with older versions of Sculpin. That's fixed now, so just update sculpin.phar and you are all set.
