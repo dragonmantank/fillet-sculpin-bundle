@@ -2,7 +2,7 @@
     "name": "dragonmantank/fillet-sculpin-bundle",
     "description": "A bundle wrapper for Fillet to integrate with Sculpin",
     "require": {
-        "dragonmantank/fillet": "dev-master"
+        "dragonmantank/fillet": "^0.1"
     },
     "autoload": {
         "psr-0": {
