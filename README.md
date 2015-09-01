@@ -42,7 +42,7 @@ class SculpinKernel extends \Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKer
 You can now call Fillet by doing the following:
 
 ```
-php sculpin.phar fillet:fillet --file=path/to/file.xml --processor=WordpressExport
+php sculpin.phar fillet:fillet --file=path/to/file.xml --parser=WordpressExport
 ```
 
 Fillet will then parse the file and generate the output! Assuming nothing blows up...
